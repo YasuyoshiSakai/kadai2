@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
-  root to: 'books#top'  # rootパスの設定
   resources :books
+  root to: 'homes#top'  # rootパスの設定
 end
